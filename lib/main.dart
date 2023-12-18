@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tots_challenge/pages/Home_page.dart';
+
+import 'package:tots_challenge/pages/Login_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -8,9 +9,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Material App',
-      home:HomePage()
-    );
+    return MaterialApp(title: 'Material App', home: LoginPage());
   }
 }
